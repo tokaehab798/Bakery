@@ -1,0 +1,199 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.alegreya-heading {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+nav {
+    position: fixed;
+    z-index: 999999;
+    background-color: white;
+}
+
+.logo {
+    width: 40%;
+}
+
+
+
+.aboutStartPart {
+    height: 200px;
+    margin-top: 65px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.imgSection {
+    width: 50%;
+    padding-top: 4%;
+}
+
+footer p {
+    font-size: 9px;
+}
+
+footer {
+    color: gray;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bg-dark-coffe {
+    background-color: #353330;
+}
+
+.width {
+    width: 10%;
+}
+
+
+
+.w-20 {
+    width: 20%;
+}
+
+.imgwidth {
+    width: 200px;
+}
+
+.icon-border-footer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #403D38;
+    border-radius: 50%;
+    padding: 10px;
+    color: gray;
+
+}
+
+.footerIcons {
+    float: left;
+    margin-right: 3px;
+}
+
+.fixedPart {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    top: 200px;
+    z-index: 9999999;
+    border-radius: 4%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-around; 
+    padding: 10px 0; 
+    
+}
+
+.fixedPart i {
+    color: gray;
+    padding: 1px;
+    box-sizing: border-box;
+}
+.fixedPart i:hover{
+    color: blue;
+}
+
+.bg-coffe {
+    background-color: #403D38;
+
+}
+
+.ourBaking {
+    text-align: center;
+}
+
+.innerContent {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    width: 23%;
+    float: left;
+
+}
+
+.innerContent h6 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.innerContent p {
+    font-size: 1rem;
+}
+
+.footerLogo img {
+    width: 30%;
+}
+
+.innerContent i {
+    font-size: xx-large;
+}
+
+.underline {
+    border-bottom: gray 1px solid;
+    opacity: 0.4;
+}
+
+
+
+
+.gallery {
+    margin: 30px 20px;
+
+}
+
+.innerGallery {
+    width: 33.3%;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative; /* Ensure gallerLayer is positioned correctly */
+    overflow: hidden;
+}
+
+.innerGallery img {
+    width: 100%;
+    height: 400px;
+    transition: all 0.4s ease-out; /* Smooth zoom effect */
+}
+
+.gallerLayer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1; 
+    opacity: 0;
+}
+
+.innerGallery:hover img {
+    transform: scale(1.1); 
+}
+
+.innerGallery:hover .gallerLayer {
+    opacity: 1; 
+}
+
+.gallerLayer i{
+    z-index: 22;
+    color: white;
+}

@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.alegreya-heading {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+.alegreya-heading-normal {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+nav {
+    position: fixed;
+    z-index: 999999;
+    background-color: white;
+}
+
+.logo {
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.imgSection {
+    width: 50%;
+    padding-top: 4%;
+}
+
+footer p {
+    font-size: 9px;
+}
+
+footer {
+    color: gray;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bg-dark-coffe {
+    background-color: #353330;
+}
+
+.width {
+    width: 10%;
+}
+
+
+
+.w-20 {
+    width: 20%;
+}
+
+.imgwidth {
+    width: 200px;
+}
+
+.icon-border-footer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #403D38;
+    border-radius: 50%;
+    padding: 10px;
+    color: gray;
+
+}
+
+.footerIcons {
+    float: left;
+    margin-right: 3px;
+}
+
+.fixedPart {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    top: 200px;
+    z-index: 9999999;
+    border-radius: 4%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-around; 
+    padding: 10px 0; 
+    
+}
+
+.fixedPart i {
+    color: gray;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.bg-coffe {
+    background-color: #403D38;
+
+}
+
+.ourBaking {
+    text-align: center;
+}
+
+.innerContent {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    width: 23%;
+    float: left;
+
+}
+
+.innerContent h6 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.innerContent p {
+    font-size: 1rem;
+}
+
+.footerLogo img {
+    width: 30%;
+}
+
+.innerContent i {
+    font-size: xx-large;
+}
+
+.underline {
+    border-bottom: gray 1px solid;
+    opacity: 0.4;
+}
+
+.aboutStartPart {
+    background-image: url(../images/Home.jpg);
+    height: 200px;
+    margin-top: 65px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+a{
+    text-decoration: none ;
+    color: white;
+}
+.form{
+    width: 70%;
+}
+.contact{
+    width: 30%;
+}
+.contactSection{
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+.boo {
+    background-color: #8E7754 ;
+    border: #8E7754 ;
+    color: white;
+    margin-top: 20px
+}
+
+.form .d-flex {
+    display: flex;
+    gap: 10px; 
+}
+
+.icon-border {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #8E7754 ;
+    border-radius: 50%;
+    padding: 10px;
+    color:#8E7754 ;
+    box-sizing: border-box;
+
+}
+
+.contact h4{
+    font-size: 24px;
+}
+.form-control {
+    border-radius: 0;
+}
+
+.map {
+    width: 100%;
+    height: 450px; /* Set a height that matches the iframe */
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%; /* Use 100% of the parent's height */
+    border: 0;
+}
+
+.fixedPart i:hover{
+    color: blue;
+}
